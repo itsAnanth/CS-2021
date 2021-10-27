@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+// g++ "week 1/bubble sort [d1].c"
+
 void bubbleSort(int * array, int size);
-void swap(int & a, int & b);
+void swap(int * a, int * b);
 
 
 int main() {
@@ -19,7 +21,7 @@ void bubbleSort(int * array, int size) {
         int swaps = 0;
         for (j = 0; j < size - i - 1; j++) {
             if (array[j] > array[j + 1]) {
-                swap(array[j], array[j + 1]);
+                swap(&array[j], &array[j + 1]);
                 swaps++;
             };
         }
@@ -27,8 +29,8 @@ void bubbleSort(int * array, int size) {
     }
 }
 
-void swap(int & a, int & b) {
-    int temp = a;
-    a = b;
-    b = temp;
+void swap(int * a, int * b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
