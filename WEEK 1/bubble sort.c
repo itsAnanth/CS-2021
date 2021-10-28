@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// g++ "week 1/bubble sort [d1].c"
+// g++ "week 1/bubble sort.c"
 
 void bubbleSort(int * array, int size);
 void swap(int * a, int * b);
