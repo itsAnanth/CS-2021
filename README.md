@@ -1,1 +1,1 @@
-A repository to track my progress at uni :)
+Just a repository to track my progress at uni :)
