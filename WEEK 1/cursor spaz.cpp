@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #include <windows.h>
-
 int main() {
     RECT desktop;
     const HWND desktop_handler = GetDesktopWindow();
