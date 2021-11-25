@@ -7,7 +7,7 @@ void swap(int * a, int * b);
 
 
 int main() {
-    int array[10] = { 2, 5, 10, 12, 15, 24, -1, 4, 9, 11 };
+    int array[] = { 2, 5, 10, 12, 15, 24, -1, 4, 9, 11, 10 };
     int size = sizeof(array)/sizeof(array[0]);
     int i = 0;
     bubbleSort(array, size);
