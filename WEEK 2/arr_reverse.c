@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// arr reverse
 int main() {
     int num, *arr, i;
     scanf("%d", &num);
